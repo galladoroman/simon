@@ -1,25 +1,38 @@
 <div class="colorbody">	
+	
+	<h1>Título y colores: {{titulo}} {{colores}}</h1>
+	<h1>Acumulador: {{acumulador}}</h1>
+
+	
 	<h1 id="verde">rr</h1>
 
-	<div id="conteiner">
+	<div id="container">
+	<p class="text-center"><button type="button" class="btn btn-default" ng-click="borrar()">Borrar</button></p>
+	<ul>
+			<li>verde:{{acumuladorverde}}</li>
+			<li>azul:{{acumuladorazul}}</li>
+			<li>rojo:{{acumuladorrojo}}</li>
+			<li>yellow:{{acumuladoramarillo}}</li>
+	</ul>
 	
-	<table>
+		<table>
+			
+			<tr>
+				<td class="green" ng-click="play('verde')">green</td>
+				<td class="blue" ng-click="play('azul')">blue</td>
 		
-		<tr>
-			<td class="green">green</td>
-			<td class="blue" >blue</td>
+				
+			</tr>
+						
+			
+			<tr>
+				<td class="red" ng-click="play('rojo')">red</td>
+				<td class="yellow" ng-click="play('amarillo')">yellow</td>
+			</tr>
+		</table>
 	
 			
-		</tr>
-		
-		<tr style="height:10px;"><td></td></tr>	
-		<tr>
-			<td class="red">red</td>
-			<td class="yellow">yellow</td>
-		</tr>
-	</table>
-	
-		
+		</ul>
 	
 
 	

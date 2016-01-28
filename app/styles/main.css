@@ -6,18 +6,17 @@
     width: 300px;
     height: 300px;
     margin: 100px auto;
-
     text-align: center;
   }
   
 
   
   .green{
-    border-radius: 180px 10px 60px 10px;
+    border-radius: 180px 0px 60px 0px;
     background-color: green;
     color: green;
-    border-right: 10px solid #0a6610;
-    border-bottom: 10px solid #0a6610;
+    border-right: 0px solid #0a6610;
+    border-bottom: 0px solid #0a6610;
     border-left: 0px solid #404040;
     border-top: 0px solid #404040;
   
@@ -32,11 +31,11 @@
   .blue{
     background-color:blue;
     color:blue;
-    border-radius: 10px 180px 10px 60px;
-    border-left: 10px solid #091475;
+    border-radius: 0px 180px 0px 60px;
+    border-left: 0px solid #091475;
     border-top: 0px solid #404040;
     border-right: 0px solid #404040;
-    border-bottom: 10px solid #091475;
+    border-bottom: 0px solid #091475;
   }
   
     .blue:hover{
@@ -48,9 +47,10 @@
     color:red;
     border-radius: 0px 60px 0px 180px; 
     border-left: 0px solid #404040;
-    border-top: 10px solid #96073e;
-    border-right: 10px solid #96073e;
+    border-top: 0px solid #96073e;
+    border-right: 0px solid #96073e;
     border-bottom: 0px solid #404040;
+
   }
   
   .red:hover{
@@ -60,9 +60,9 @@
   .yellow{
     background-color:yellow;
     color: yellow;
-    border-radius: 60px 10px 180px 10px;
-    border-left: 10px solid #adad06;
-    border-top: 10px solid #adad06;
+    border-radius: 60px 0px 180px 0px;
+    border-left: 0px solid #adad06;
+    border-top: 0px solid #adad06;
     border-right: 0px solid #404040;
     border-bottom: 0px solid #404040;
   }
@@ -76,7 +76,11 @@
   
   h1{
     border:3px solid #000000;
-    margin: 100px auto;
+    margin: 10px auto;
     text-align: center;
+    color: #fff;
   }
   
+  li{
+    color:#fff;
+  }
